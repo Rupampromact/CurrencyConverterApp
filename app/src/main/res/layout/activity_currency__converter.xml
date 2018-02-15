@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="curcon.promact.com.currencyconverterapp.Currency_Converter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/base"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Hungarian Forint"
+             android:textColor="@android:color/holo_blue_bright"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:hint="HF" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="CONVERT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ind"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Indian Rupee"
+            android:textColor="@android:color/holo_blue_bright" />
+
+        <EditText
+            android:id="@+id/result1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:hint="IR" />
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="CONVERT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/usd"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="US Dollar"
+            android:textColor="@android:color/holo_blue_bright" />
+
+        <EditText
+            android:id="@+id/result2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:hint="USD" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="CONVERT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mr"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Malaysian Ringgit "
+            android:textColor="@android:color/holo_blue_bright" />
+
+        <EditText
+            android:id="@+id/result3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:hint="MR" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="CONVERT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bd"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Bahraini Dinar "
+            android:textColor="@android:color/holo_blue_bright" />
+
+        <EditText
+            android:id="@+id/result4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:hint="BD" />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="CONVERT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Russian Ruble "
+            android:textColor="@android:color/holo_blue_bright" />
+
+        <EditText
+            android:id="@+id/result5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:hint="BR" />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="CONVERT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/jy"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Japanese Yen  "
+            android:textColor="@android:color/holo_blue_bright" />
+
+        <EditText
+            android:id="@+id/result6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:hint="JY" />
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="CONVERT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sf"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Swiss Franc "
+            android:textColor="@android:color/holo_blue_bright" />
+
+        <EditText
+            android:id="@+id/result7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:hint="SF" />
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="CONVERT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+    </LinearLayout>
+
+</LinearLayout>
+
